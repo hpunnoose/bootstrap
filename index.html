@@ -23,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#">QUESTIONS</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">FOOD</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">RESEARCH</a>
                     </li>
                 </ul>
             </div>
@@ -37,104 +37,236 @@
     
     </nav>
 
-<!-- HERO SECTION-->
-<div class="px-4 py-5 mb-5 text-center bg-dark">
-    <h1 class="display-5 fw-bold">....</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">....</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+     <!-- Header -->
+     <header>
+      <div class="container">
+          <div class="intro-text">
+              <div class="intro-lead-in">title</div>
+              <div class="intro-heading">description</div>
+              <a href="#questions" class="page-scroll btn btn-xl">?</a>
+          </div>
       </div>
-    </div>
-</div>
-<div class="container">
-  <div class="row">
+  </header>
+
+
+
+    <!-- questions Section -->
+    <section id="questions">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Questions</h2>
+                  <h3 class="section-subheading text-muted">.</h3>
+              </div>
+          </div>
+          <div class="row text-center">
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="glyphicon glyphicon-question-sign"></i>
+                  </span>
+                  <h4 class="service-heading">How is baking important to different indivisuals?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="glyphicon glyphicon-question-sign"></i>
+                  </span>
+                  <h4 class="service-heading">Why do people bake?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="glyphicon glyphicon-question-sign"></i>
+                  </span>
+                  <h4 class="service-heading">What is the function of baking in our lives?</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+   <!-- food Grid Section -->
+   <section id="food" class="bg-light-gray">
     <div class="container">
-      <div id="questions">
-        <h2 id="h21" class="col-sm-3">..</h2>
-        <p id="questions">questions</p>
-      </div>
-</div>
-
-  </div>
-  
-  <div class="container">
-    <div class="row">
-      <div id="bibingka">
-        <h2 id="bibingkatitle" class="col-sm-3">bibingka</h2>
-
-        <img src="https://www.thelittleepicurean.com/wp-content/uploads/2020/10/bibingka-1.jpg" id="img1" class="col-sm-4"><br><br><br>
-        <p id="bibingkapara">
-          bibingka</p>
-      </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">food</h2>
+                <h3 class="section-subheading text-muted">...</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 food-item">
+                <a href="#foodModal1" class="food-link" data-toggle="modal">
+                    <div class="food-hover">
+                        <div class="food-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="imageoffood" class="img-responsive" alt="">
+                </a>
+                <div class="food-caption">
+                    <h4>Christollen</h4>
+                    <p class="text-muted">Germany</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 food-item">
+                <a href="#foodModal2" class="food-link" data-toggle="modal">
+                    <div class="food-hover">
+                        <div class="food-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="imageoffood" 
+                         class="img-responsive" alt="">
+                </a>
+                <div class="food-caption">
+                    <h4>Buñuelo</h4>
+                    <p class="text-muted">Latin America</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 food-item">
+                <a href="#foodModal3" class="food-link" data-toggle="modal">
+                    <div class="food-hover">
+                        <div class="food-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="imageoffood" class="img-responsive" alt="">
+                </a>
+                <div class="food-caption">
+                    <h4>Bánh chưng</h4>
+                    <p class="text-muted">Vietnam</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 food-item">
+                <a href="#foodModal4" class="food-link" data-toggle="modal">
+                    <div class="food-hover">
+                        <div class="food-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="imageofood" class="img-responsive" alt="">
+                </a>
+                <div class="food-caption">
+                    <h4>Kakanin</h4>
+                    <p class="text-muted">Philippines</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 food-item">
+                <a href="#foodModal5" class="food-link" data-toggle="modal">
+                    <div class="food-hover">
+                        <div class="food-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="putimageoffood" class="img-responsive" alt="">
+                </a>
+                <div class="food-caption">
+                    <h4>Tortell de Reis</h4>
+                    <p class="text-muted">Spain</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 food-item">
+                <a href="#foodModal6" class="food-link" data-toggle="modal">
+                    <div class="food-hover">
+                        <div class="food-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="imageoffood" class="img-responsive" alt="">
+                </a>
+                <div class="food-caption">
+                    <h4>Piernik</h4>
+                    <p class="text-muted">Poland</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+</section>
 
-<div class="container">
-  <div class="row">
-    <div id="christollen">
-      <h2 id="christollen" class="col-sm-3">Christollen</h2>
 
-      <img src="https://static.toiimg.com/photo/72966294.cms" id="img2" class="col-sm-4"><br><br><br>
-      <p id="christollen">
-       Christollen</p>
+  <!-- Research Section -->
+  <section id="research">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Research Process</h2>
+                <h3 class="section-subheading text-muted">...</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>time</h4>
+                                <h4 class="subheading">title</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">process</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>time</h4>
+                                <h4 class="subheading">title</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">process</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>time</h4>
+                                <h4 class="subheading">title</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">process</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>time</h4>
+                                <h4 class="subheading">title</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">process</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                              
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-</div>
+</section>
 
-<div class="container">
-  <div class="row">
-    <div id="pascua">
-      <h3 id="pascuatitle" class="col-sm-3">Pan de Pascua</h2>
-
-      <img src="https://i1.wp.com/thesimplelife.cl/wp-content/uploads/2016/12/Pan-de-Pascua-Vegano-1.jpg?w=2000&ssl=1" id="img3" class="col-sm-4"><br><br><br>
-      <p id="pascuapara">
-        Pan de Pascua</p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div id="banhchung">
-      <h4 id="banhchungtitle" class="col-sm-3">Bánh chưng</h2>
-
-      <img src="https://delightfulplate.com/wp-content/uploads/2018/02/Banh-Chung-Vietnamese-Square-Sticky-Rice-Cake.jpg" id="img4" class="col-sm-4"><br><br><br>
-      <p id="banhchungpara">
-        Bánh Chưng</p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div id="tortelldereis">
-      <h5 id="tortelldereistitle" class="col-sm-3">Tortell de Reis</h2>
-
-      <img src="https://www.barcelona.cat/culturapopular/sites/default/files/galeria/tortell_reis_a.jpg" id="img5" class="col-sm-4"><br><br><br>
-      <p id="tortelldereispara">
-        Tortell de Reis</p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div id="kakanin">
-      <h6 id="kakanintitle" class="col-sm-3">Kakanin</h2>
-
-      <img src="https://aboutcagayandeoro.com/wp-content/uploads/2021/03/Edi-WoW-Food-Hub-assorted-kakanin.jpg?x35603" id="img6" class="col-sm-4"><br><br><br>
-      <p id="kakaninpara">
-        Kakanin</p>
-    </div>
-  </div>
-</div>
-</div>
 
 </body>
 </html>
